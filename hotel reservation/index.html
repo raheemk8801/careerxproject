@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Reservation Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Hotel Reservation Form</h2>
+  <form>
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="first-name" required>
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last-name" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="arrival-date">Arrival Date:</label>
+    <input type="date" id="arrival-date" name="arrival-date" required>
+
+    <label for="departure-date">Departure Date:</label>
+    <input type="date" id="departure-date" name="departure-date" required>
+
+    <label for="adults">Number of Adults:</label>
+    <input type="number" id="adults" name="adults" min="1" required>
+
+    <label for="children">Number of Children:</label>
+    <input type="number" id="children" name="children" min="0" required>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
